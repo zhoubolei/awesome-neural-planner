@@ -11,6 +11,9 @@ ECCV20: **Perceive, Predict, and Plan: Safe Motion Planning Through Interpretabl
 CVPR19: **End-to-end Interpretable Neural Motion Planner**. [paper](https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/End-to-end-Interpretable-Neural-Motion-Planner.pdf) <br>
 *comment*: Like inverseRL, a cost function is learned from human demonstration when input LiDAR and roadmap, output perception detection result (bounding boxes) as well as cost volume. Then learned cost function is used to select the sampled candidate trajectories. Pay attention to its trajectory parameterization and the trajectory sampler for plausible trajectories. Planning horization is of 3 seconds. Interpretability cames from the joint output of 3D LiDAR detection result. 
 
+arXiv: **End-to-end Contextual Perception and Prediction with Interaction Transformer**. [paper](https://arxiv.org/pdf/2008.05927.pdf) <br>
+*comment*: marrying 3D object detection and motion forecasting. A transformer module is introduced for motion forecasting task. 
+
 coRL20sub: **Super-Human Performance in Gran Turismo Sport Using Deep Reinforcement Learning**. [paper](https://arxiv.org/pdf/2008.07971.pdf) [video!](https://www.youtube.com/watch?v=Zeyv1bN9v4A&feature=youtu.be) <br>
 *comment*: pure deep RL approach for car-racing. Pay attention to its reward design and policy input and output. the side-by-side comparison between human expert and RL algorithm is interesting. The system architecture is also interesting, by using 4 PlayState 4 game consoles and a single desktop PC through ethernet connection. 
 
